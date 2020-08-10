@@ -1,0 +1,15 @@
+{
+  "name": "countries-api",
+  "version": "1.0.0",
+  "description": "An API for cuntries, states and cities",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "ANI CHIDERA JAMES",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
