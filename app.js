@@ -28,7 +28,7 @@ app.get('/countries/list', function (req, res) {
     const country = req.params.country;
     const parsedCountries = country.split('-').join(' ');
 
-    const countryDetails = countriesJson.find(countries => countries.name == country);
+    const countryDetails = countriesJson.find(countries => countries.name == parsedCountries);
 
     res.send(JSON.stringify(countryDetails));
    });
